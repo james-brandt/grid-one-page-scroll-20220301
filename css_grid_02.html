@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid 01</title>
+    <style>
+        body {
+            position: relative;
+            /*color: white;*/
+        }
+
+        #layout {
+            display: grid;
+            grid-template-rows: 100px 400px 100px;
+            grid-template-columns: 200px 1fr 200px;
+            margin: 0 auto;
+        }
+
+        #one {
+            background-color: red;
+        }
+
+        #two {
+            background-color: orange;
+        }
+
+        #three {
+            background-color: green;
+        }
+
+        #four {
+            background-color: yellow;
+        }
+
+        #five {
+            background-color: blue;
+        }
+
+        #six {
+            background-color: deeppink;
+        }
+
+    </style>
+</head>
+<body>
+<div id="layout">
+    <div id="one"><h2>ONE</h2></div>
+    <div id="two"><h2>TWO</h2></div>
+    <div id="three"><h2>THREE</h2></div>
+    <div id="four"><h2>FOUR</h2></div>
+    <div id="five"><h2>FIVE</h2></div>
+    <div id="six"><h2>SIX</h2></div>
+</div><!-- end of layout -->
+</body>
+</html>
